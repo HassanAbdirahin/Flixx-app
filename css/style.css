@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+.list-group {
+  display: flex;
+  gap: 10px;
+}
+
 ul {
   list-style: none;
 }
@@ -247,8 +252,8 @@ section h2 {
   margin-top: 20px;
 }
 
-.details-bottom {
-}
+/* .details-bottom {
+} */
 
 .details-bottom li {
   margin: 15px 0;
@@ -337,16 +342,15 @@ section h2 {
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
 }
